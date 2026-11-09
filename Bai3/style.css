@@ -1,0 +1,231 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.tieu-de{
+    display: flex;
+    justify-content: space-between;
+    height: 160px;
+    background-color: white;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.logo {
+    font-size: 20px;
+}
+.menu-ngang ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.menu-ngang a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.menu-ngang a:hover{
+    color: black;
+}
+.header-right a{
+    text-decoration: none;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 150px;
+    color: white;
+}
+.header-right a:hover{
+    background-color: gray;
+}
+.header-right{
+    gap: 30px;
+}
+
+
+.background{
+    background-image: url("nen.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;  
+    height: 400px;
+    padding-top: 30px;
+}
+.ND1{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 20px;
+}
+.ND2{
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+}
+.ND3{
+    color: black;
+    text-align: center;
+    padding-top: 60px;
+}
+.main-body1{
+    min-height: 300px;   /* thay vì height: 300px */
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 50px;
+    gap: 40px;
+}
+.main-body1 .left{
+    width: 50%
+}
+.main-body1 .right{
+    width: 45%;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.main-body1 .left .nd0 a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 24px;
+    background-color: #d1d1d1;
+    border-radius: 50px;
+    font-size: 12px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+}
+.nd3 a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 15px 28px;
+    border-radius: 50px;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+.nd1{
+    color: black;
+    padding-top: 20px;
+    text-align: left;
+    margin-left: 35px;
+}
+.nd2{
+    text-align: left;
+    padding-top: 20px;
+    margin-left: 40px;
+}
+.nd3 a:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.menu-doc ul{
+    list-style: none;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    flex-direction: column;
+}
+.menu-doc li{
+    border-bottom: 1px solid black;
+}
+.menu-doc li:last-child{
+    border-bottom: none;
+}
+.menu-doc a{
+    text-decoration: none;
+    color: black;
+    padding: 18px 25px;
+    display: inline-flex;
+    gap: 10px;
+}
+.menu-doc a:hover{
+    background-color: gray;
+}
+
+.main-body2 {
+    height: auto;
+    background-color: white;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-body2 > h1 {
+    width: 100%;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+
+.main-body2 .left,
+.main-body2 .right {
+    width: 48%;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.main-body2 img {
+    width: 100%;
+    aspect-ratio: 16 / 10;  
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.main-body2 h3 {
+    font-size: 16px;
+    margin: 15px 15px 10px 15px;
+}
+
+.main-body2 p {
+    font-size: 13px;
+    color: #666;
+    margin: 0 15px 15px 15px;
+    text-align: left;
+}
+
+.main-body2 p2 {
+    display: block;
+    font-size: 11px;
+    color: #888;
+    font-weight: bold;
+    margin: 0 15px 15px 15px;
+}
+
+.main-body2 .left a,
+.main-body2 .right a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    padding: 10px;
+    margin: 0 15px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.main-body2 .left a:hover,
+.main-body2 .right a:hover {
+    background-color: black;
+    color: white;
+}
